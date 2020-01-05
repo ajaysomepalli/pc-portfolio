@@ -1,4 +1,4 @@
-# pc-portfolio
+# personalcapitol-simulations
 It generates 10,000 simulations for the investment's future value with given risk, return and inflation for given number of years.
 
 Information Provided:
@@ -16,4 +16,3 @@ Test Cases: The test cases are implemented in PortfolioTest.java
   1. If there is no risk and returns = inflation, the future value should be the same as initial investment. In this case returns = 0, risk = 0, inflation = 0 and initial investment is $100,000 the median value is $100,000[testWithZeroInflationZeroRiskZeroReturns()].
   2. If inflation is greater than the returns, the future value is less than the initial investment. In this case, returns = 0, risk = 0, inflation = 3% and the initial investment is $100,000 the best case is < $100,000[testWithHighInflationThanReturns()].
   3. If there is a fixed return with no risk and no inflation, the future value should be equal tot eh calculated value. In this case return = 5%, risk = 0 and inflation is 0 and initial investment is $100,000 the median value is $265,329.77[testWithStandardReturnsNoRiskNoInflation()].
-
